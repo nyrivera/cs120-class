@@ -3,8 +3,7 @@
 public class LA9 {
 	
 	public static double findHypotenuse(double a, double b) {
-		double hypotenuse =0;
-		hypotenuse = Math.sqrt(Math.pow(a , 2)+ (Math.pow(b , 2)));
+		double hypotenuse =Math.sqrt(Math.pow(a , 2) + (Math.pow(b , 2)));
 		return hypotenuse;
 	}
 	
@@ -23,7 +22,7 @@ public class LA9 {
 	public static void main(String[] args) {
 		double a = 5.0;
 		double b = 5.0;
-		double x = 4.5;
+		double x = 0;
 		double y = -5;
 		System.out.println(findHypotenuse(a,b));
 		System.out.println("Your coordinates are on quadrant " + quadrant(x,y) + ".");
